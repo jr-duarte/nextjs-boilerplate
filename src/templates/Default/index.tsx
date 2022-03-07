@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { globalStyles } from '@Styles/stitches.config';
+import mainCss from '@Styles/mainCss';
 
 type DefaultTemplateProps = {
   children: React.ReactNode;
 };
 
 export default function DefaultTemplate({ children }: DefaultTemplateProps) {
-  globalStyles();
+  mainCss();
   return <div>{children}</div>;
 }

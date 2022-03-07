@@ -1,4 +1,4 @@
-import { styled } from '@Styles/stitches.config';
+import { styled } from '@Styles/theme/stitches.config';
 
 export const Button = styled('button', {
   width: '100%',
@@ -14,3 +14,5 @@ export const Button = styled('button', {
     color: '$red',
   },
 });
+
+export default Button;

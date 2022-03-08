@@ -22,12 +22,12 @@ export const {
   // Theme
   theme: {
     fonts: {
-      base: 'PT Sans',
-      highLight: 'Heineken Serif',
+      base: 'Arial',
+      highLight: 'Ringside Compressed',
     },
 
     fontWeights: {
-      normal: 400,
+      regular: 400,
       bold: 700,
     },
 
@@ -135,40 +135,40 @@ export const {
     },
 
     colors: {
-      brandPrimaryPure: '#13670B',
-      brandPrimaryLight: '#c3edc0',
-      brandPrimaryMedium: '#18810e',
-      brandPrimaryDark: '#082e05',
+      brandPrimaryPure: '#ED1C24',
+      brandPrimaryLight: '#FBC6CB',
+      brandPrimaryMedium: '#D51118',
+      brandPrimaryDark: '#5E080B',
 
-      brandSecondaryPure: '#bbbcbd',
-      brandSecondaryLight: '#d4d4d4',
-      brandSecondaryMedium: '#7e8081',
-      brandSecondaryDark: '#353536',
+      brandSecondaryPure: '#BD8D28',
+      brandSecondaryLight: '#EEDAAF',
+      brandSecondaryMedium: '#976220',
+      brandSecondaryDark: '#6E4017',
 
-      accentPure: '#ff2a00',
-      accentLight: '#ffbdad',
-      accentMedium: '#e12b00',
-      accentDark: '#751600',
+      accentPure: '#6339F9',
+      accentLight: '#D4C3FE',
+      accentMedium: '#3E27B0',
+      accentDark: '#2B245D',
 
       neutralHighPure: '#FFFFFF',
-      neutralHighLight: '#f4f5f5',
-      neutralHighMedium: '#dfe0e2',
-      neutralHighDark: '#d2d4d6',
+      neutralHighLight: '#F5F5F4',
+      neutralHighMedium: '#E4E3E1',
+      neutralHighDark: '#B7B2AE',
 
-      neutralLowPure: '#000000',
-      neutralLowLight: '#a2a3a4',
-      neutralLowMedium: '#6c6d6f',
-      neutralLowDark: '#353536',
+      neutralLowPure: '#131211',
+      neutralLowLight: '#958F88',
+      neutralLowMedium: '#645E59',
+      neutralLowDark: '#3B3835',
 
-      statusFocusPure: '#1931d2',
-      statusFocusLight: '#bfc6f7',
-      statusFocusMedium: '#182fc9',
-      statusFocusDark: '#0c1864',
+      statusFocusPure: '#009DF2',
+      statusFocusLight: '#B3E6F4',
+      statusFocusMedium: '#005BAE',
+      statusFocusDark: '#143971',
 
-      statusNegativePure: '#f16609',
-      statusNegativeLight: '#fcc8a6',
-      statusNegativeMedium: '#c55307',
-      statusNegativeDark: '#622a04',
+      statusNegativePure: '#C51B62',
+      statusNegativeLight: '#FAC7D2',
+      statusNegativeMedium: '#9D0261',
+      statusNegativeDark: '#5A014A',
     },
 
     gridGutter: {

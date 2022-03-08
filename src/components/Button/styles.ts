@@ -2,11 +2,11 @@ import { styled } from '@Styles/theme/stitches.config';
 
 export const Button = styled('button', {
   width: '100%',
-  backgroundColor: 'gainsboro',
+  backgroundColor: '$brandPrimaryLight',
   borderRadius: '9999px',
   padding: '10px 15px',
   '&:hover': {
-    backgroundColor: 'lightgray',
+    backgroundColor: '$brandSecondaryMedium',
   },
   color: 'yellow',
   fontRegular: '$15',

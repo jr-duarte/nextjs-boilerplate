@@ -8,7 +8,9 @@ Array(13)
   .fill(0)
   .forEach((item, index) => {
     itemsCol[`${index}`] = {
-      gridCol: `${index}`,
+      '@lgDown': {
+        gridCol: `${index}`,
+      },
     };
     itemsColLg[`${index}`] = {
       '@lgUp': {

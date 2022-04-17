@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint ./",
     "lintFix": "eslint ./ --fix",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "dependencies": {
     "@stitches/react": "^1.2.7",
@@ -40,6 +41,7 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^7.0.2",
+    "plop": "^3.0.5",
     "prettier": "^2.4.1",
     "typescript": "4.4.4"
   }

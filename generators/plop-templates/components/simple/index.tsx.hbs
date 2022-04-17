@@ -1,0 +1,11 @@
+import type * as Stitches from '@stitches/react';
+
+import * as S from './styles';
+
+type {{pascalCase name}}ComponentProps = {
+css?: Stitches.CSS;
+};
+
+export default function {{pascalCase name}}({ css }: {{pascalCase name}}ComponentProps) {
+return (<S.Wrapper css={css}><span>{{pascalCase name}}</span></S.Wrapper>);
+}

@@ -41,4 +41,23 @@ module.exports = (plop) => {
       },
     ],
   });
+
+  // API
+  plop.setGenerator('Router Simple', {
+    description: 'applies simple router structure',
+    prompts: [
+      {
+        type: 'input',
+        name: 'name',
+        message: 'What is the name of the router?',
+      },
+    ],
+    actions: [
+      {
+        type: 'add',
+        path: '../src/pages/api/{{pascalCase name}}.ts',
+        templateFile: 'plop-templates/routers/simple/index.ts.hbs',
+      },
+    ],
+  });
 };

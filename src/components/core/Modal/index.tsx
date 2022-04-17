@@ -3,11 +3,13 @@ import Modal from 'react-modal';
 
 type ModalComponentProps = {
   isOpen: boolean;
+  onClose: () => void;
   children: React.ReactNode;
 };
 
 export default function ComponentModal({
   isOpen,
+  onClose,
   children,
 }: ModalComponentProps) {
   useEffect(() => {
@@ -29,7 +31,12 @@ export default function ComponentModal({
   };
 
   return (
-    <Modal isOpen={isOpen} style={customStylesModal} ariaHideApp={false}>
+    <Modal
+      isOpen={isOpen}
+      onRequestClose={onClose}
+      style={customStylesModal}
+      ariaHideApp={false}
+    >
       {children}
     </Modal>
   );

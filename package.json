@@ -21,7 +21,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
-    "react-modal": "^3.14.4"
+    "react-modal": "^3.14.4",
+    "vanilla-masker": "^1.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
@@ -31,6 +32,7 @@
     "@types/node": "^17.0.21",
     "@types/react": "17.0.30",
     "@types/react-modal": "^3.13.1",
+    "@types/vanilla-masker": "^1.2.1",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "babel-eslint": "^10.1.0",

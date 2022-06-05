@@ -7,6 +7,14 @@ type ContainerComponentProps = {
   css?: Stitches.CSS;
 };
 
-export default function Container({ children, css }: ContainerComponentProps) {
-  return <Wrapper css={css}>{children}</Wrapper>;
+export default function Container({
+  children,
+  css,
+  ...props
+}: ContainerComponentProps) {
+  return (
+    <Wrapper css={css} {...props}>
+      {children}
+    </Wrapper>
+  );
 }

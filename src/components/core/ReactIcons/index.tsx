@@ -1,6 +1,8 @@
+import * as BootstrapIcons from 'react-icons/bs';
 import * as FontAwesome from 'react-icons/fa';
 import * as IonIcons4 from 'react-icons/io';
 import * as MaterialDesign from 'react-icons/md';
+import * as RemixIcon from 'react-icons/ri';
 
 export const icons = {
   chevronLeft: MaterialDesign.MdChevronLeft,
@@ -18,6 +20,8 @@ export const icons = {
   whatsApp: FontAwesome.FaWhatsapp,
   alert: IonIcons4.IoMdAlert,
   menu: IonIcons4.IoIosMenu,
+  clip: BootstrapIcons.BsPaperclip,
+  share: RemixIcon.RiShareFill,
 };
 
 export type IconComponentProps = {

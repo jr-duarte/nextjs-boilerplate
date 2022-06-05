@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 
 type ModalComponentProps = {
   isOpen: boolean;
-  onClose: () => void;
+  onClose?: () => void;
   children: React.ReactNode;
 };
 
@@ -11,6 +11,7 @@ export default function ComponentModal({
   isOpen,
   onClose,
   children,
+  ...props
 }: ModalComponentProps) {
   useEffect(() => {
     Modal.setAppElement('body');
@@ -36,6 +37,7 @@ export default function ComponentModal({
       onRequestClose={onClose}
       style={customStylesModal}
       ariaHideApp={false}
+      {...props}
     >
       {children}
     </Modal>

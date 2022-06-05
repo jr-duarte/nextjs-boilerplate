@@ -6,6 +6,6 @@ type {{pascalCase name}}ComponentProps = {
 css?: Stitches.CSS;
 };
 
-export default function {{pascalCase name}}({ css }: {{pascalCase name}}ComponentProps) {
-return (<S.Wrapper css={css}><span>{{pascalCase name}}</span></S.Wrapper>);
+export default function {{pascalCase name}}({ css, ...props }: {{pascalCase name}}ComponentProps) {
+return (<S.Wrapper css={css} {...props}><span>{{pascalCase name}}</span></S.Wrapper>);
 }

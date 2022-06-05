@@ -17,7 +17,7 @@ module.exports = (plop) => {
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/styles.tsx',
+        path: '../src/components/{{pascalCase name}}/styles.ts',
         templateFile: 'plop-templates/components/simple/styles.ts.hbs',
       },
     ],

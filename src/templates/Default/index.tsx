@@ -8,5 +8,5 @@ type DefaultTemplateProps = {
 
 export default function DefaultTemplate({ children }: DefaultTemplateProps) {
   mainCss();
-  return <div>{children}</div>;
+  return <main>{children}</main>;
 }

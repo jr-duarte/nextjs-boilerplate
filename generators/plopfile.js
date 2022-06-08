@@ -36,7 +36,7 @@ module.exports = (plop) => {
     actions: [
       {
         type: 'add',
-        path: '../src/pages/{{pascalCase name}}.tsx',
+        path: '../src/pages/{{lowerCase name}}.tsx',
         templateFile: 'plop-templates/pages/simple/index.tsx.hbs',
       },
     ],

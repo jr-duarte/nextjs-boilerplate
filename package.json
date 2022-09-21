@@ -1,7 +1,7 @@
 {
   "name": "nextjs-stitches-typescript-eslint-prettier-commitlint-boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "yarn & next dev",
     "build": "next build",

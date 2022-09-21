@@ -33,7 +33,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `build`: creates the production build version
 - `start`: starts a simple server with the build production code
 - `lint`: runs the linter in all components and pages
-- `generate`: run generate template files
+- `generate`: runs generate template files
 - `cy:open`: runs cypress open
 
 ## Learn More

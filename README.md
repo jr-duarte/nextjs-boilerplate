@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) boilerplate.
+# [Nextjs Boilerplate](https://html5boilerplate.com/)
 
 ## What is inside?
 

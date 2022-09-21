@@ -4,7 +4,7 @@ import type { NextRequest } from 'next/server';
 
 export default function middleware(request: NextRequest) {
   // Example Page Private
-  const token = request.cookies.JWT_TOKEN;
+  const token = request.cookies.get('JWT_TOKEN');
 
   if (request.url.includes(PATH.dashboard.root)) {
     if (!token) {

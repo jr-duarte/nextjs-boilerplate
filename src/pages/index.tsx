@@ -27,6 +27,7 @@ const Home: NextPage = () => {
               Abrir Modal
             </button>
             <ModalTeste isOpen={modalShow} onClose={handleModalClose} />
+            <h1>Teste</h1>
           </GridCol>
         </GridRow>
       </Container>

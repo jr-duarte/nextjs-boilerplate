@@ -29,6 +29,8 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'react/function-component-definition': 'off',
+    'react/jsx-no-useless-fragment': 'off',
     'no-nested-ternary': 'off',
     'no-constant-condition': 'off',
     'react/no-unescaped-entities': 'off',

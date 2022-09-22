@@ -12,6 +12,7 @@ This project uses lot of stuff as:
 - [Prettier](https://prettier.io/)
 - [Plop](https://plopjs.com/)
 - [Commit Lint](https://commitlint.js.org/#/)
+- [Husky](https://typicode.github.io/husky/#/)
 
 ## Getting Started
 

@@ -1,4 +1,4 @@
-# 🚀  [Nextjs Boilerplate](https://html5boilerplate.com/)
+# 🚀   [Nextjs Boilerplate](https://html5boilerplate.com/)
 
 ## What is inside?
 

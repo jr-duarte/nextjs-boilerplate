@@ -10,16 +10,14 @@ import Link from 'next/link';
 
 const Login: NextPageWithLayout = () => {
   return (
-    <TemplateDefault>
-      <Container>
-        <GridRow>
-          <GridCol col={10}>
-            <h1>Login</h1>
-            <Link href={PATH.notloggedArea.home}>Home</Link>
-          </GridCol>
-        </GridRow>
-      </Container>
-    </TemplateDefault>
+    <Container>
+      <GridRow>
+        <GridCol col={10}>
+          <h1>Login</h1>
+          <Link href={PATH.notloggedArea.home}>Home</Link>
+        </GridCol>
+      </GridRow>
+    </Container>
   );
 };
 

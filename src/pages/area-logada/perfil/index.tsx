@@ -6,20 +6,20 @@ import GridRow from '@Components/core/Grid/Row';
 import { NextPageWithLayout } from '@Core/types/next';
 import TemplateDefault from '@Templates/Default';
 
-const Dashboard: NextPageWithLayout = () => {
+const Perfil: NextPageWithLayout = () => {
   return (
     <Container>
       <GridRow>
         <GridCol col={10}>
-          <h1>Dashboard</h1>
+          <h1>Perfil</h1>
         </GridCol>
       </GridRow>
     </Container>
   );
 };
 
-Dashboard.getLayout = function getLayout(page: ReactElement) {
+Perfil.getLayout = function getLayout(page: ReactElement) {
   return <TemplateDefault>{page}</TemplateDefault>;
 };
 
-export default Dashboard;
+export default Perfil;

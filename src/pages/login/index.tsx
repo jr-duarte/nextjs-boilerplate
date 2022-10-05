@@ -4,7 +4,7 @@ import GridRow from '@Components/core/Grid/Row';
 import TemplateDefault from '@Templates/Default';
 import type { NextPage } from 'next';
 
-const Hello: NextPage = () => {
+const Login: NextPage = () => {
   return (
     <TemplateDefault>
       <Container>
@@ -18,4 +18,4 @@ const Hello: NextPage = () => {
   );
 };
 
-export default Hello;
+export default Login;

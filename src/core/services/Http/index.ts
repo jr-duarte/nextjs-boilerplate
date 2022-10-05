@@ -32,7 +32,7 @@ Http.interceptors.response.use(
       destroyCookie(null, 'JWT_TOKEN', {
         path: '/',
       });
-      window.location.href = PATH.login;
+      window.location.href = PATH.notloggedArea.login;
     }
     return Promise.reject(error);
   },

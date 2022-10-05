@@ -23,7 +23,7 @@ function HttpFromServer(ctx?: any) {
         destroyCookie(null, 'JWT_TOKEN', {
           path: '/',
         });
-        window.location.href = PATH.login;
+        window.location.href = PATH.notloggedArea.login;
       }
       return Promise.reject(error);
     },

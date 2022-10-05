@@ -6,15 +6,19 @@ export default function middleware(request: NextRequest) {
   // Example Page Private
   const token = request.cookies.get('JWT_TOKEN');
 
-  if (request.url.includes(PATH.dashboard.root)) {
+  if (request.url.includes(PATH.loggedArea.root)) {
     if (!token) {
-      return NextResponse.redirect(new URL(PATH.login.root, request.url));
+      return NextResponse.redirect(
+        new URL(PATH.notloggedArea.login, request.url),
+      );
     }
   }
 
-  if (request.url.includes('/login')) {
+  if (request.url.includes(PATH.notloggedArea.login)) {
     if (token) {
-      return NextResponse.redirect(new URL(PATH.dashboard.root, request.url));
+      return NextResponse.redirect(
+        new URL(PATH.loggedArea.profile, request.url),
+      );
     }
   }
 }

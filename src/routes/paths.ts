@@ -1,9 +1,11 @@
 export const PATH = {
-  login: {
-    root: '/login',
+  notloggedArea: {
+    home: '/',
+    login: '/login',
   },
-  dashboard: {
-    root: '/dashboard',
+  loggedArea: {
+    root: '/area-logada',
+    profile: '/area-logada/perfil',
   },
 };
 

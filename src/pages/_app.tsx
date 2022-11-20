@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { ReactTagManager } from 'react-gtm-ts';
 
 import { NextPageWithLayout } from '@Core/types/next';
@@ -7,8 +8,23 @@ type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout;
 };
 
+ReactTagManager.init('GTM-NGV448C');
+
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
-  ReactTagManager.init('GTM-NGV448C');
+  useEffect(() => {
+    window.addEventListener('load', (event) => {
+      console.log(event);
+    });
+
+    window.addEventListener('fecth', (event) => {
+      console.log(event);
+    });
+
+    window.addEventListener('fetch', function (event) {
+      console.log(event);
+    });
+  }, []);
+
   return <Component {...pageProps} />;
 }
 export default MyApp;

@@ -1599,6 +1599,15 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
+design-system-tsup-example-1@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/design-system-tsup-example-1/-/design-system-tsup-example-1-1.0.7.tgz#178cfc1e74e1a758a8183d0205345d9c01e6fb55"
+  integrity sha512-34NsInnIKLz8sgnMnl7NG6im6358Hf4d6FPiBltQ11KovkKpTpHztBZGbLdaVyr2Z6ajQE8nr/ou0JeJaI7GuA==
+  dependencies:
+    "@stitches/react" "^1.2.8"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
 detect-file@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/detect-file/-/detect-file-1.0.0.tgz#f0d66d03672a825cb1b73bdb3fe62310c8e552b7"
@@ -3872,13 +3881,18 @@ quick-lru@^4.0.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
 
-react-dom@18.2.0:
+react-dom@18.2.0, react-dom@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-gtm-ts@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/react-gtm-ts/-/react-gtm-ts-1.0.13.tgz#1c18c2fc671e34be4d37805c9da42c64095c8ec2"
+  integrity sha512-alLwXT9LE/7HxxNjCcJrrlU6I0/VkhDDfS49Je0vNBGBDKUfANkHRr2YLADFWHqnGSY0rEAmn9SJrAACLjG02w==
 
 react-icons@^4.3.1:
   version "4.4.0"
@@ -3910,7 +3924,7 @@ react-modal@^3.15.1:
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
 
-react@18.2.0:
+react@18.2.0, react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==

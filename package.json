@@ -17,10 +17,12 @@
   "dependencies": {
     "@stitches/react": "^1.2.8",
     "axios": "^0.27.2",
+    "design-system-tsup-example-1": "^1.0.7",
     "next": "12.3.1",
     "nookies": "^2.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-gtm-ts": "^1.0.13",
     "react-icons": "^4.3.1",
     "react-modal": "^3.15.1",
     "vanilla-masker": "^1.2.0"

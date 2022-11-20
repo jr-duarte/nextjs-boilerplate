@@ -1,4 +1,5 @@
 import { ReactElement, useState } from 'react';
+import { ReactTagManager } from 'react-gtm-ts';
 
 import Container from '@Components/core/Container';
 import GridCol from '@Components/core/Grid/Col';
@@ -7,6 +8,7 @@ import ModalTeste from '@Components/ModalTeste';
 import { NextPageWithLayout } from '@Core/types/next';
 import { PATH } from '@Routes/paths';
 import TemplateDefault from '@Templates/Default';
+import { Button } from 'design-system-tsup-example-1';
 import Link from 'next/link';
 
 const Home: NextPageWithLayout = () => {
@@ -24,7 +26,27 @@ const Home: NextPageWithLayout = () => {
     <Container>
       <GridRow>
         <GridCol col={10}>
-          <button type="button" onClick={handleModalOpen}>
+          <Button
+            onClick={() =>
+              ReactTagManager.action({
+                event: 'click_all_button',
+                clickText: 'teste',
+                teste: 'teste',
+              })
+            }
+          >
+            teste
+          </Button>
+          <button
+            type="button"
+            onClick={() => {
+              handleModalOpen();
+              ReactTagManager.action({
+                event: 'click_all_button',
+                clickText: 'Abrir Modal',
+              });
+            }}
+          >
             Abrir Modal
           </button>
           <ModalTeste isOpen={modalShow} onClose={handleModalClose} />
